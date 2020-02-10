@@ -1,0 +1,8 @@
+.mychip {
+    width: 90px;
+    height: 30px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}

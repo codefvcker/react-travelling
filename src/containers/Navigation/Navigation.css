@@ -1,0 +1,22 @@
+.navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background: rgba( 255, 255, 255, .8);
+}
+
+.navigation__item {
+    cursor: pointer;
+    font-size: 25px;
+    color: #cad3df;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation__item.active {
+    color: #7783fa;
+}
+

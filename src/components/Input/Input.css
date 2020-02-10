@@ -1,0 +1,14 @@
+.input-wrapper {
+    padding: 8px 3px;
+}
+
+.input {
+    width: 100%;
+}
+
+.input-wrapper input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+

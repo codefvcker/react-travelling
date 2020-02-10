@@ -1,0 +1,1 @@
+export {withFeed} from './withFeed'

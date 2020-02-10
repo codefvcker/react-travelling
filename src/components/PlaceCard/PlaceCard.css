@@ -1,0 +1,26 @@
+.place-card {
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+}
+
+.place-card__image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.label-wrap {
+    background-color: rgba(71, 69, 69, 0.8);
+    position: absolute;
+    left: 0;
+    width: 60%;
+    top: 60%;
+    color: #d9e7eb;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

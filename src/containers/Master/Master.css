@@ -1,0 +1,27 @@
+.master__top-wrap {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.master__content-wrap {
+    display: flex;
+}
+
+.master__content--left {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.master__content--right {
+    flex: 1.4;
+    padding-left: 20px;
+}
+
+.master__content--right * {
+    text-decoration: none;
+    color: #9ba1e2;
+}

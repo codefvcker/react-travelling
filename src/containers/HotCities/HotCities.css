@@ -1,0 +1,52 @@
+.hot-cities {
+    display:flex;
+    flex-direction: column;
+}
+
+.hot-cities__top-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    height: 60px;
+}
+
+.hot-cities__top-wrap--left {
+    flex: 1.4;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.hot-cities__top-wrap--right {
+    display: flex;
+    flex: 4;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.hot-cities__top-wrap--right * {
+    text-decoration: none;
+    color: #999;
+}
+
+.hot-wrap {
+    background-color: #7783fa;
+    border-radius: 5px;
+    padding: 0 5px;
+    color: #fff;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.hot-cities__bottom-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-cities__place-card {
+    width: 30%;
+    height: 110px;
+    border-radius: 10px;
+}
