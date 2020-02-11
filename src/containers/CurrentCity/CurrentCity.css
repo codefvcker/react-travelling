@@ -1,0 +1,23 @@
+.mychip {
+    width: 90px;
+    height: 30px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.current-city__top-wrap {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.current-city__content {
+    display: flex;
+    width: 100%;
+}

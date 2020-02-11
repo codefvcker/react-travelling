@@ -1,7 +1,7 @@
 import React from 'react'
 
-import {Label} from '../../components/Label'
-import {Chip} from '../../components/Chip'
+import {Label} from '../../components'
+import {Chip} from '../../components'
 
 import './CurrentCity.css'
 
@@ -22,8 +22,12 @@ export const CurrentCity = () => {
             </div>
             <div className="current-city__content-wrap">
                 <div className="current-city__content">
-                    <Chip />
-                    <Chip />
+                    <Chip className='mychip' iconName='search' withIcon withClose>
+                        Tiananmen
+                    </Chip>
+                    <Chip className='mychip' withIcon withClose>
+                        Gugong
+                    </Chip>
                 </div>
             </div>
         </div>
