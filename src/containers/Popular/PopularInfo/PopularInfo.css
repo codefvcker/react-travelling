@@ -1,0 +1,35 @@
+.popular-info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popular-info__content--details, .popular-info__content--navigation {
+    display: flex;
+    flex: 1;
+    height: 100%;  
+    align-items: center;
+}
+
+
+
+.popular-info__content-inner {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #7783fa;
+}
+
+.popular-info__content-inner * {
+    margin: 0 5px;
+}
+
+.popular-info__content--border {
+    height: 70%;
+    border-left: 1px solid #999;
+}

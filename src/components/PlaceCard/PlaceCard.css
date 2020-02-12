@@ -1,7 +1,7 @@
 .place-card {
     border-radius: 8px;
     position: relative;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
 
 .place-card__image {
