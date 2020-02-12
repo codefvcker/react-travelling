@@ -5,6 +5,6 @@ export { Icon } from "./Icon";
 export { Image } from "./Image";
 export { Avatar } from "./Avatar";
 export { Button } from "./Button";
-export { Card } from "./Card";
+export { CityCard } from "./CityCard";
 export { Input } from "./Input";
 export { PlaceCard } from "./PlaceCard";

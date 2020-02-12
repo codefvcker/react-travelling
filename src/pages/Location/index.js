@@ -5,7 +5,7 @@ import { Article } from "../../components";
 
 import "./Location.css";
 
-export default class Location extends Component {
+export class Location extends Component {
   render() {
     return (
       <section className="location">
