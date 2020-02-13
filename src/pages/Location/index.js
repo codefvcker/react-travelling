@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { CurrentCity, Popular, MustGo } from "../../containers";
+import { CurrentCity, Popular, MustGo, SameCity } from "../../containers";
 import { Article } from "../../components";
 
 import "./Location.css";
@@ -17,6 +17,9 @@ export class Location extends Component {
         </Article>
         <Article>
           <MustGo />
+        </Article>
+        <Article>
+          <SameCity />
         </Article>
       </section>
     );

@@ -1,0 +1,39 @@
+.same-city__top-wrap {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.same-city__content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.same-city__content--left {
+    flex: 1.1;
+}
+
+.same-city__content--right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.same-city__avatars-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex: 2.5;
+}
+
+.same-city__icon-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}

@@ -26,9 +26,9 @@
 
 .popular-card__content--descr {
     display: flex;
-    font-size: 14px;
+    font-size: 13px;
     justify-content: space-between;
-    width: 80%;
+    min-width: 90%;
     color: #999;
 }
 
