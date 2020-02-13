@@ -1,5 +1,5 @@
-import React from 'react'
+import React from "react";
 
-export const withFeed = (Component) => (props) => {
-    return <Component {...props}  onFeed={() => console.log('DA')} /> 
-}
+export const withFeed = Component => props => {
+  return <Component {...props} />;
+};

@@ -7,11 +7,35 @@ import { Scenery } from "../../containers/Scenery";
 import { HotCities } from "../../containers/HotCities";
 import { Master } from "../../containers/Master";
 
+import TravelService from "../../services/travelService";
+
 import "./Feed.css";
 
 import { withFeed } from "../../proxy-props";
 
 class Feed extends Component {
+  state = {
+    data: {}
+  };
+
+  TravelService = new TravelService();
+
+  componentDidMount() {
+    this.onUpdate();
+  }
+
+  onUpdate = () => {
+    this.TravelService.getAllCitiesData()
+      .then(this.onLoad)
+      .catch(this.onError);
+  };
+
+  onLoad = data => {
+    console.log(data);
+    this.setState({
+      data
+    });
+  };
   render() {
     return (
       <section className="feed">
@@ -28,7 +52,7 @@ class Feed extends Component {
         <Article>
           <HotCities />
         </Article>
-        <Article>
+        <Article onClick={() => console.log(this.state.data)}>
           <Master />
         </Article>
       </section>
