@@ -1,9 +1,9 @@
 .master__top-wrap {
-    width: 100%;
-    height: 60px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    font-size: 17px;
+    height: 60px;
+    padding: 0 10px;
 }
 
 .master__content-wrap {

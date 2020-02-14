@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 
-import { Label } from "../../components/Label";
-import { Search } from "../../containers";
-import { Article } from "../../components/Article";
-import { Scenery } from "../../containers/Scenery";
-import { HotCities } from "../../containers/HotCities";
-import { Master } from "../../containers/Master";
+import { Article } from "../../components";
+import { Search, Master, HotCities, Scenery } from "../../containers";
 
 import TravelService from "../../services/travelService";
 
@@ -15,7 +11,8 @@ import { withFeed } from "../../proxy-props";
 
 class Feed extends Component {
   state = {
-    data: {}
+    cities: [],
+    users: []
   };
 
   TravelService = new TravelService();
@@ -25,34 +22,31 @@ class Feed extends Component {
   }
 
   onUpdate = () => {
-    this.TravelService.getAllCitiesData()
+    this.TravelService.getAllData()
       .then(this.onLoad)
       .catch(this.onError);
   };
 
   onLoad = data => {
     console.log(data);
+    const { cities, users } = data;
     this.setState({
-      data
+      cities,
+      users
     });
   };
+
   render() {
     return (
       <section className="feed">
         <Article>
-          <Label className="feed__label--top" type="bold">
-            Hi Mike,
-          </Label>
-          <Label className="feed__label--top" type="bold">
-            Where do you want to go?
-          </Label>
           <Search />
         </Article>
         <Scenery />
         <Article>
           <HotCities />
         </Article>
-        <Article onClick={() => console.log(this.state.data)}>
+        <Article>
           <Master />
         </Article>
       </section>

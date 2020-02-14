@@ -8,24 +8,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
     font-size: 17px;
+    height: 60px;
+    padding: 0 20px;
 }
 
 .scenery__top-wrap__left {
     display: flex;
-    justify-content: space-between;
-    width: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 2;
     height: 100%;
-    padding: 24px 0 0 17px;
 }
 
 .scenery__top-wrap__right {
     height: 100%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    margin-right: 20px;
-    padding-top: 15px;
+    flex: 1;
 }
 
 .scenery__top-wrap__right * {
@@ -38,7 +39,8 @@
     font-size: 12px;
     display: flex;
     align-items: center;
-    padding-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
 }
 
 .scenery__bottom-wrap {

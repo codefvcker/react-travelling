@@ -1,159 +1,161 @@
 {
-    "users": [
-        {
-            "name": "jessy_john",
-            "altname": "Jessy",
-            "photo": "https://ksassets.timeincuk.net/wp/uploads/sites/46/2017/03/Priti-Patel-re-sized.jpg",
-            "alt": "Photo",
-            "id": "1",
-            "currentCity": "Berlin"
-        },
-        {
-            "name": "abracham_mvp",
-            "altname": "Abby",
-            "photo": "https://www.loyatic.eu/wp-content/uploads/2017/11/iStock_000020004182Medium1.jpg",
-            "alt": "Photo",
-            "currentCity": "Berlin",
-            "id": "2"
-        },
-        {
-            "name": "john_klapan",
-            "altname": "John",
-            "photo": "https://cdn.webshopapp.com/shops/44821/files/300344313/image.jpg",
-            "alt": "Photo",
-            "currentCity": "Berlin",
-            "id": "3"
-        },
-        {
-            "name": "real_eggs",
-            "altname": "eggs",
-            "photo": "https://www.washingtonpost.com/resizer/1RhnmRzobv_b5lzu2YIz381sV8s=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4ZLH33AYAAI6TOHGKZYZBQX5BA.jpg",
-            "alt": "Photo",
-            "currentCity": "Paris",
-            "id": "4"
-        },
-        {
-            "name": "katefromlviv",
-            "altname": "Kate",
-            "photo": "https://cdn.lifehack.org/wp-content/uploads/2015/01/alpha-woman-1024x768.jpeg",
-            "alt": "Photo",
-            "currentCity": "Paris",
-            "id": "5"
-        },
-        {
-            "name": "smoothiemaker",
-            "altname": "Smoothie",
-            "photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=480:*",
-            "alt": "Photo",
-            "currentCity": "Paris",
-            "id": "6"
-        }
-    ],
-    "cities": [
-        {
-            "name": "Berlin",
-            "country":"Germany",
-            "id": "1",
-            "photos": [
-                "https://az592774.vo.msecnd.net/pgl-release/Images/ArticleImages/19/19133.jpg",
-                "https://albicja.pl/wp-content/uploads/2017/02/Berlin-overview-cityscape-xlarge.jpg",
-                "https://www.tripzaza.com/ru/destinations/files/2017/09/Berlin-e1505798693967.jpg"
-            ],
-            "places": [
-                {
-                    "name": "City Center",
-                    "description": ["Museum", "History", "Square"],
-                    "price": "$5",
-                    "distance" : "6.2km"
-                },
-                {
-                    "name": "History Museum",
-                    "description": ["Museum", "History", "Square"],
-                    "price": "$15",
-                    "distance" : "10.4km"
-                }
-            ],
-            "alt": "City",
-            "weather": "+23°C"
-        },
-        {
-            "name": "London",
-            "country":"United Kingdom",
-            "id": "2",
-            "photos": [
-                "https://lp-cms-production.imgix.net/2019-06/GettyImages-538096543_medium.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg/1000px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg",
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/City_of_London%2C_seen_from_Tower_Bridge.jpg/1200px-City_of_London%2C_seen_from_Tower_Bridge.jpg"
-            ],
-            "places": [
-                {
-                    "name": "City Center",
-                    "description": ["Museum", "History", "Square"],
-                    "price": "$5",
-                    "distance" : "6.2km"
-                },
-                {
-                    "name": "History Museum",
-                    "description": ["Museum", "History", "Square"],
-                    "price": "$15",
-                    "distance" : "10.4km"
-                }
-            ],
-            "alt": "City",
-            "weather": "+16°C"
-        },
-        {
-            "name": "Paris",
-            "country":"France",
-            "id": "3",
-            "photos": [
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQs8dMHkl6D-E7WmI_MNUKzgj8C4fZ32n1t4l7kt83iRMsCwX4d",
-                "https://www.gpsmycity.com/img/gd/1144.jpg",
-                "https://100resilientcities.org/wp-content/uploads/2017/06/Paris-hero-crop-e1539202545467.jpg",
-                "https://www.cia-france.com/media/1558/parcarou1_720x500.jpg"
-            ],
-            "places": [
-                {
-                    "name": "City Center",
-                    "description": ["Museum", "History", "Square"],
-                    "price": "$5",
-                    "distance" : "6.2km"
-                },
-                {
-                    "name": "History Museum",
-                    "description": ["Museum", "History", "Square"],
-                    "price": "$15",
-                    "distance" : "10.4km"
-                }
-            ],
-            "alt": "City",
-            "weather": "+19°C"
-        },
-        {
-            "name": "Praha",
-            "country":"Czech Republic",
-            "id": "4",
-            "photos": [
-                "https://q-cf.bstatic.com/images/hotel/max1024x768/183/183512442.jpg",
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWwWkuOPblk8074WjRUSSTVfPWhMAy-zDUjkvsyfuBMtJeTRRv",
-                "https://letsportpeople.com/wp-content/uploads/2018/11/prague-half-2019-featured-1-945x525.jpg"
-            ],
-            "places": [
-                {
-                    "name": "City Center",
-                    "description": ["Museum", "History", "Square"],
-                    "price": "$5",
-                    "distance" : "6.2km"
-                },
-                {
-                    "name": "History Museum",
-                    "description": ["Museum", "History", "Square"],
-                    "price": "$15",
-                    "distance" : "10.4km"
-                }
-            ],
-            "alt": "City",
-            "weather": "+28°C"
-        }
-    ]
+    "data": {
+        "users": [
+            {
+                "name": "jessy_john",
+                "altname": "Jessy",
+                "photo": "https://ksassets.timeincuk.net/wp/uploads/sites/46/2017/03/Priti-Patel-re-sized.jpg",
+                "alt": "Photo",
+                "id": "1",
+                "currentCity": "Berlin"
+            },
+            {
+                "name": "abracham_mvp",
+                "altname": "Abby",
+                "photo": "https://www.loyatic.eu/wp-content/uploads/2017/11/iStock_000020004182Medium1.jpg",
+                "alt": "Photo",
+                "currentCity": "Berlin",
+                "id": "2"
+            },
+            {
+                "name": "john_klapan",
+                "altname": "John",
+                "photo": "https://cdn.webshopapp.com/shops/44821/files/300344313/image.jpg",
+                "alt": "Photo",
+                "currentCity": "Berlin",
+                "id": "3"
+            },
+            {
+                "name": "real_eggs",
+                "altname": "eggs",
+                "photo": "https://www.washingtonpost.com/resizer/1RhnmRzobv_b5lzu2YIz381sV8s=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4ZLH33AYAAI6TOHGKZYZBQX5BA.jpg",
+                "alt": "Photo",
+                "currentCity": "Paris",
+                "id": "4"
+            },
+            {
+                "name": "katefromlviv",
+                "altname": "Kate",
+                "photo": "https://cdn.lifehack.org/wp-content/uploads/2015/01/alpha-woman-1024x768.jpeg",
+                "alt": "Photo",
+                "currentCity": "Paris",
+                "id": "5"
+            },
+            {
+                "name": "smoothiemaker",
+                "altname": "Smoothie",
+                "photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=480:*",
+                "alt": "Photo",
+                "currentCity": "Paris",
+                "id": "6"
+            }
+        ],
+        "cities": [
+            {
+                "name": "Berlin",
+                "country":"Germany",
+                "id": "1",
+                "photos": [
+                    "https://az592774.vo.msecnd.net/pgl-release/Images/ArticleImages/19/19133.jpg",
+                    "https://albicja.pl/wp-content/uploads/2017/02/Berlin-overview-cityscape-xlarge.jpg",
+                    "https://www.tripzaza.com/ru/destinations/files/2017/09/Berlin-e1505798693967.jpg"
+                ],
+                "places": [
+                    {
+                        "name": "City Center",
+                        "description": ["Museum", "History", "Square"],
+                        "price": "$5",
+                        "distance" : "6.2km"
+                    },
+                    {
+                        "name": "History Museum",
+                        "description": ["Museum", "History", "Square"],
+                        "price": "$15",
+                        "distance" : "10.4km"
+                    }
+                ],
+                "alt": "City",
+                "weather": "+23°C"
+            },
+            {
+                "name": "London",
+                "country":"United Kingdom",
+                "id": "2",
+                "photos": [
+                    "https://lp-cms-production.imgix.net/2019-06/GettyImages-538096543_medium.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg/1000px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/City_of_London%2C_seen_from_Tower_Bridge.jpg/1200px-City_of_London%2C_seen_from_Tower_Bridge.jpg"
+                ],
+                "places": [
+                    {
+                        "name": "City Center",
+                        "description": ["Museum", "History", "Square"],
+                        "price": "$5",
+                        "distance" : "6.2km"
+                    },
+                    {
+                        "name": "History Museum",
+                        "description": ["Museum", "History", "Square"],
+                        "price": "$15",
+                        "distance" : "10.4km"
+                    }
+                ],
+                "alt": "City",
+                "weather": "+16°C"
+            },
+            {
+                "name": "Paris",
+                "country":"France",
+                "id": "3",
+                "photos": [
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQs8dMHkl6D-E7WmI_MNUKzgj8C4fZ32n1t4l7kt83iRMsCwX4d",
+                    "https://www.gpsmycity.com/img/gd/1144.jpg",
+                    "https://100resilientcities.org/wp-content/uploads/2017/06/Paris-hero-crop-e1539202545467.jpg",
+                    "https://www.cia-france.com/media/1558/parcarou1_720x500.jpg"
+                ],
+                "places": [
+                    {
+                        "name": "City Center",
+                        "description": ["Museum", "History", "Square"],
+                        "price": "$5",
+                        "distance" : "6.2km"
+                    },
+                    {
+                        "name": "History Museum",
+                        "description": ["Museum", "History", "Square"],
+                        "price": "$15",
+                        "distance" : "10.4km"
+                    }
+                ],
+                "alt": "City",
+                "weather": "+19°C"
+            },
+            {
+                "name": "Praha",
+                "country":"Czech Republic",
+                "id": "4",
+                "photos": [
+                    "https://q-cf.bstatic.com/images/hotel/max1024x768/183/183512442.jpg",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWwWkuOPblk8074WjRUSSTVfPWhMAy-zDUjkvsyfuBMtJeTRRv",
+                    "https://letsportpeople.com/wp-content/uploads/2018/11/prague-half-2019-featured-1-945x525.jpg"
+                ],
+                "places": [
+                    {
+                        "name": "City Center",
+                        "description": ["Museum", "History", "Square"],
+                        "price": "$5",
+                        "distance" : "6.2km"
+                    },
+                    {
+                        "name": "History Museum",
+                        "description": ["Museum", "History", "Square"],
+                        "price": "$15",
+                        "distance" : "10.4km"
+                    }
+                ],
+                "alt": "City",
+                "weather": "+28°C"
+            }
+        ]
+    }
 }

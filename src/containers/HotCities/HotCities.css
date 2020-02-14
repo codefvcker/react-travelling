@@ -9,20 +9,19 @@
     align-items: center;
     font-size: 17px;
     height: 60px;
+    padding: 0 10px;
 }
 
 .hot-cities__top-wrap--left {
     flex: 1.4;
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
 }
 
 .hot-cities__top-wrap--right {
     display: flex;
     flex: 4;
     justify-content: flex-end;
-    margin-right: 10px;
 }
 
 .hot-cities__top-wrap--right * {
