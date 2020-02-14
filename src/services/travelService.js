@@ -4,7 +4,6 @@ export default class TravelService {
       return TravelService.instance;
     }
     this._apiBase = "https://react-travelling.firebaseio.com/";
-    this.counter = 0;
     TravelService.instance = this;
     return this;
   }
@@ -26,16 +25,25 @@ export default class TravelService {
     return response;
   };
 
-  increaseValue = () => {
-    this.counter++;
+  getAllCities = async () => {
+    const response = await this.getResource("data/cities.json");
+    return response.map(this._toCitiesTransformer);
   };
 
-  getCounter = () => {
-    return this.counter;
+  getAllUsers = async () => {
+    const response = await this.getResource("data/users.json");
+    return response.map(this._toUsersTransformer);
   };
 
-  // getAllUsersData = async () => {
-  //   const response = await this.getResource("users.json");
-  //   return response;
-  // };
+  // Because it isnt a full app, but only MVP
+
+  _toCitiesTransformer = data => {
+    const { photos, name } = data;
+    return { photos, name };
+  };
+
+  _toUsersTransformer = data => {
+    const { photo, altname } = data;
+    return { photo, altname };
+  };
 }

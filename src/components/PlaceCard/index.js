@@ -1,33 +1,22 @@
-import React from 'react'
-import classNames from 'classnames'
+import React from "react";
+import classNames from "classnames";
 
-import {Image} from '../Image'
-import {Label} from '../Label'
+import { Image } from "../Image";
+import { Label } from "../Label";
 
-import './PlaceCard.css'
+import "./PlaceCard.css";
 
-export const PlaceCard = ({className, src, alt}) => {
+export const PlaceCard = ({ className, name, src, alt }) => {
+  const classes = classNames("place-card", className);
 
-    const classes = classNames(
-        'place-card',
-        className
-    )
-
-    return (
-        <div className={classes}>
-            <Image 
-                src={src}
-                alt={alt}
-                className="place-card__image"
-            />
-            <div className="label-wrap">
-                <Label 
-                    type='light'
-                    className='place-card__city-label'
-                >
-                    Berlin
-                </Label>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className={classes}>
+      <Image src={src} alt={alt} className="place-card__image" />
+      <div className="label-wrap">
+        <Label type="light" className="place-card__city-label">
+          {name}
+        </Label>
+      </div>
+    </div>
+  );
+};

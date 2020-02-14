@@ -22,7 +22,7 @@
                 "altname": "John",
                 "photo": "https://cdn.webshopapp.com/shops/44821/files/300344313/image.jpg",
                 "alt": "Photo",
-                "currentCity": "Berlin",
+                "currentCity": "London",
                 "id": "3"
             },
             {
@@ -30,7 +30,7 @@
                 "altname": "eggs",
                 "photo": "https://www.washingtonpost.com/resizer/1RhnmRzobv_b5lzu2YIz381sV8s=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4ZLH33AYAAI6TOHGKZYZBQX5BA.jpg",
                 "alt": "Photo",
-                "currentCity": "Paris",
+                "currentCity": "London",
                 "id": "4"
             },
             {
@@ -48,6 +48,22 @@
                 "alt": "Photo",
                 "currentCity": "Paris",
                 "id": "6"
+            },
+            {
+                "name": "prahalover",
+                "altname": "Kate",
+                "photo": "https://cdn.lifehack.org/wp-content/uploads/2015/01/alpha-woman-1024x768.jpeg",
+                "alt": "Photo",
+                "currentCity": "Praha",
+                "id": "7"
+            },
+            {
+                "name": "traveller",
+                "altname": "Smoothie",
+                "photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=480:*",
+                "alt": "Photo",
+                "currentCity": "Praha",
+                "id": "8"
             }
         ],
         "cities": [
