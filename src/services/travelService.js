@@ -1,10 +1,10 @@
-export default class TravelService {
+class MyTravelService {
   constructor() {
-    if (typeof TravelService.instance === "object") {
-      return TravelService.instance;
+    if (typeof MyTravelService.instance === "object") {
+      return MyTravelService.instance;
     }
     this._apiBase = "https://react-travelling.firebaseio.com/";
-    TravelService.instance = this;
+    MyTravelService.instance = this;
     return this;
   }
 
@@ -35,6 +35,11 @@ export default class TravelService {
     return response.map(this._toUsersTransformer);
   };
 
+  getAllPlaces = async () => {
+    const response = await this.getResource("data/cities.json");
+    return response.map(this._toPlacesTransformer);
+  };
+
   // Because it isnt a full app, but only MVP
 
   _toCitiesTransformer = data => {
@@ -46,4 +51,12 @@ export default class TravelService {
     const { photo, altname } = data;
     return { photo, altname };
   };
+
+  _toPlacesTransformer = data => {
+    const { places, photos } = data;
+    // console.log("sdsd", places, photos);
+    return { places, photos };
+  };
 }
+
+export const TravelService = new MyTravelService();

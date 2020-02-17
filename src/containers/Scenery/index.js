@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import { Label, CityCard } from "../../components";
-import TravelService from "../../services/travelService";
+import { TravelService } from "../../services/travelService";
 
 import "./Scenery.css";
 
@@ -12,14 +12,12 @@ export class Scenery extends Component {
     users: []
   };
 
-  TravelService = new TravelService();
-
   componentDidMount() {
     this.updateDate();
   }
 
   updateDate = () => {
-    this.TravelService.getAllData()
+    TravelService.getAllData()
       .then(this.onDataLoad)
       .catch(this.onError);
   };

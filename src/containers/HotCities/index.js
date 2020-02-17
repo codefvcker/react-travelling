@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import TravelService from "../../services/travelService";
+import { TravelService } from "../../services/travelService";
 
 import { PlaceCard, Label } from "../../components";
 
@@ -12,14 +12,12 @@ export class HotCities extends Component {
     cities: []
   };
 
-  TravelService = new TravelService();
-
   componentDidMount() {
     this.updateData();
   }
 
   updateData = () => {
-    this.TravelService.getAllCities()
+    TravelService.getAllCities()
       .then(this.onCitiesLoad)
       .catch(this.onError);
   };
@@ -29,7 +27,6 @@ export class HotCities extends Component {
     this.setState({
       cities
     });
-    console.log(this.state);
   };
 
   renderCities = cities => {

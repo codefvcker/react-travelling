@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import TravelService from "../../services/travelService";
+import { TravelService } from "../../services/travelService";
 
 import { Label, Avatar } from "../../components";
 
@@ -16,10 +16,8 @@ export class Master extends Component {
     this.updateUsers();
   }
 
-  TravelService = new TravelService();
-
   updateUsers = () => {
-    this.TravelService.getAllUsers()
+    TravelService.getAllUsers()
       .then(this.onUsersLoad)
       .catch(this.onError);
   };
