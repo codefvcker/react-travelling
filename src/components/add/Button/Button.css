@@ -1,0 +1,18 @@
+.btn {
+    display: inline-block;
+    position: relative;
+    background-color: #3386d9;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn[disabled] {
+    opacity: .2;
+}
+
+.btn:hover {
+    background-color: #70B4E6;
+}

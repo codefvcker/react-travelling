@@ -1,0 +1,15 @@
+.label {
+    display: inline-block;
+}
+
+.label.light {
+    font-weight: 200;
+}
+
+.label.semi {
+    font-weight: 400;
+}
+
+.label.bold {
+    font-weight: 600;
+}
