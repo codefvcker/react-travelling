@@ -85,4 +85,9 @@
     margin-bottom: 10px;
 }
 
+.login-form__link {
+    /* text-decoration: none; */
+    color: #000;
+}
+
 

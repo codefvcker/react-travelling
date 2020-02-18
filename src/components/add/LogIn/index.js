@@ -42,10 +42,14 @@ export const LogIn = () => {
         </div>
         <div className="login-form__links-wrap">
           <Link to="#">
-            <Label type="semi">Create account</Label>
+            <Label className="login-form__link" type="semi">
+              Create account
+            </Label>
           </Link>
           <Link to="#">
-            <Label type="semi">Forgot password?</Label>
+            <Label className="login-form__link" type="semi">
+              Forgot password?
+            </Label>
           </Link>
         </div>
       </div>
